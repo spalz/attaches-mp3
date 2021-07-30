@@ -1,7 +1,7 @@
 {
-  "name": "@editorjs/attaches",
+  "name": "@spalz/attaches-mp3",
   "version": "1.1.0",
-  "repository": "https://github.com/editor-js/attaches",
+  "repository": "https://github.com/spalz/attaches-mp3",
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",

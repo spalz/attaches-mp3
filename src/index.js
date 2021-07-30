@@ -55,7 +55,7 @@ const LOADER_TIMEOUT = 500;
  * @property {AttachesToolData} data
  * @property {AttachesToolConfig} config
  */
-export default class AttachesTool {
+export default class AttachesToolMp3 {
   /**
    * @param {AttachesToolData} data
    * @param {Object} config
@@ -78,9 +78,9 @@ export default class AttachesTool {
     this.config = {
       endpoint: config.endpoint || '',
       field: config.field || 'file',
-      types: config.types || '*',
-      buttonText: config.buttonText || 'Select file to upload',
-      errorMessage: config.errorMessage || 'File upload failed',
+      types: config.types || 'audio/mp3',
+      buttonText: config.buttonText || 'Выберите mp3 файл для загрузки',
+      errorMessage: config.errorMessage || 'Ошибка загрузки файла',
       additionalRequestHeaders: config.additionalRequestHeaders || {}
     };
 
@@ -106,7 +106,7 @@ export default class AttachesTool {
   static get toolbox() {
     return {
       icon: Icon,
-      title: 'Attaches'
+      title: 'Вставка mp3 плеера'
     };
   }
 

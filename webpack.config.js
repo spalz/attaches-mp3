@@ -4,7 +4,7 @@ module.exports = {
     path: __dirname + '/dist',
     publicPath: '/',
     filename: 'bundle.js',
-    library: 'AttachesTool',
+    library: 'AttachesAudio',
     libraryTarget: 'umd',
     libraryExport: 'default'
   },

@@ -55,7 +55,7 @@ const LOADER_TIMEOUT = 500;
  * @property {AttachesToolData} data
  * @property {AttachesToolConfig} config
  */
-export default class AttachesToolMp3 {
+export default class AttachesAudio {
   /**
    * @param {AttachesToolData} data
    * @param {Object} config

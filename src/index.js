@@ -106,7 +106,7 @@ export default class AttachesAudio {
   static get toolbox() {
     return {
       icon: Icon,
-      title: 'Вставка mp3 плеера'
+      title: 'Вставка mp3'
     };
   }
 
